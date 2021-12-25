@@ -184,12 +184,6 @@ theme = "LoveIt"
     # LoveIt 更改 | 0.2.0 评论系统设置
     [params.page.comment]
       enable = true
-      # Disqus 评论系统设置
-      [params.page.comment.disqus]
-        # LoveIt 新增 | 0.1.1
-        enable = false
-        # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
-        shortname = ""
       # Gitalk 评论系统设置
       [params.page.comment.gitalk]
         # LoveIt 新增 | 0.1.1
@@ -226,16 +220,6 @@ theme = "LoveIt"
         numPosts = 10
         appId = ""
         languageCode = "zh_CN"
-      # LoveIt 新增 | 0.2.0 Telegram Comments 评论系统设置
-      [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
       # LoveIt 新增 | 0.2.0 Commento 评论系统设置
       [params.page.comment.commento]
         enable = false
