@@ -1,4 +1,4 @@
-baseURL = "http://smallsponge.com/"
+baseURL = "https://www.smallsponge.com/"
 # [en, zh-cn, fr, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写
@@ -176,8 +176,8 @@ theme = "LoveIt"
     [params.page.share]
       enable = true
       Twitter = true
-      HackerNews = false
-      Reddit = false
+      HackerNews = true
+      Reddit = true
       Line = true
       Weibo = true
       Evernote = true
@@ -241,9 +241,9 @@ theme = "LoveIt"
         enable = false
       # LoveIt 新增 | 0.2.5 Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "MRYangY/MRYangY.github.io"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
