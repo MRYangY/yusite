@@ -8,6 +8,6 @@ echo "title is ${title}!"
 
 hugo new posts/${title}.md
 
-subl content/posts/${title}.md
+#typora content/posts/${title}.md
 
 
