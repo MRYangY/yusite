@@ -6,7 +6,7 @@ tags: ["AirTest", "自动化测试", "自动安装apk"]
 categories: ["自动化"]
 ---
 
-## 利用AirTest实现自动安装APK-跳过vivo手机安装验证
+### 利用AirTest实现自动安装APK-跳过vivo手机安装验证
 
 
 
@@ -69,9 +69,7 @@ categories: ["自动化"]
 
 Note: 通过AirTest IDE的录制生成脚本功能，可以帮我们快速生成脚本框架，然后在此基础上根据自己的需求结合 airtest脚本文档，来实现具体功能。
 
-
-
-#### 实现
+### 实现
 
 airtest 的脚本是air文件，其实本质上是python文件。
 
@@ -125,7 +123,7 @@ airtest 支持的命令很少，通过
 
 发现没有传递自定义参数的选项。
 
-#### AirTest自定义参数
+### AirTest自定义参数
 
 通过自定义Airtest启动器可以实现添加自定义参数。
 
@@ -210,7 +208,7 @@ print("install apk by Airtest finished!!")
 
 
 
-#### 封装bat脚本
+### 封装bat脚本
 
 因为不同的厂商app安装的流程不一样，有的设备不需要经历上面这一通操作，只需要通过adb install就能成功安装，所以我们对不同的手机需要做区分，通过命令行操作不是很方便，封装后的bat脚本：
 
@@ -249,9 +247,7 @@ else (
 
 
 
-
-
-#### 参考
+### 参考
 
 https://airtest.readthedocs.io/en/latest/all_module/airtest.core.api.html#airtest.core.api.connect_device
 
