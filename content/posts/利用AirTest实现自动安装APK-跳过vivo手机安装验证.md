@@ -6,8 +6,6 @@ tags: ["AirTest", "自动化测试", "自动安装apk"]
 categories: ["自动化"]
 ---
 
-### 利用AirTest实现自动安装APK-跳过vivo手机安装验证
-
 
 
 ![](https://raw.githubusercontent.com/MRYangY/blog-img/main/hd-wallpaper-2836301_1280.jpg)
