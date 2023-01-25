@@ -51,6 +51,13 @@ theme = "LoveIt"
       # 自行托管追踪器时的主机路径
       server = ""
 
+  [params.busuanzi]         # count web traffic by busuanzi # 是否使用不蒜子统计站点访问量
+    enable = false
+    siteUV = true
+    sitePV = true
+    pagePV = true
+
+
 
 # 作者配置
 [author]
