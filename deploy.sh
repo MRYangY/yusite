@@ -22,7 +22,7 @@ git commit -m "$message"
 
 echo "commit success!!"
 
-git pull --rebase origin master
+#git pull --rebase origin master
 
 echo "sync remote project success!!"
 
