@@ -7,12 +7,8 @@
                     {{- safeHTML . -}}
                 </div>
             {{- end -}}
-            <script async src="https://npm.elemecdn.com/penndu@1.0.0/bsz.js"></script>
-            本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
-            本文总访客量 <span id="busuanzi_value_page_uv"></span> 人
-            本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
-            本站总访客数 <span id="busuanzi_value_site_uv"></span> 人
-
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 
             {{- /* Hugo and LoveIt */ -}}
             {{- if ne .Site.Params.footer.hugo false -}}
