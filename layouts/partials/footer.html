@@ -6,8 +6,6 @@
                 <div class="footer-line">
                     {{- safeHTML . -}}
                 </div>
-                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
             {{- end -}}            
 
             {{- /* Hugo and LoveIt */ -}}
@@ -48,6 +46,8 @@
                     <span class="icp">{{ . | safeHTML }}</span>
                 {{- end -}}
             </div>
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
         </div>
     </footer>
 {{- end -}}
