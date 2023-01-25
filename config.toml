@@ -51,28 +51,6 @@ theme = "LoveIt"
       # 自行托管追踪器时的主机路径
       server = ""
 
-  # 自定义配置 dahaimian
-  [params.dahaimian]
-    [params.dahaimian.summary]
-      update = true # summary 更新日期显示
-    [params.dahaimian.page]
-      update = true # pages 更新日期显示
-    [params.dahaimian.busuanzi]
-      enable = true
-      # custom uv for the whole site
-      site_uv = true
-      site_uv_pre = '<i class="fa fa-user"></i>' # 字符或提示语
-      site_uv_post = ''
-      # custom pv for the whole site
-      site_pv = true
-      site_pv_pre = '<i class="fa fa-eye"></i>'
-      # site_pv_post = '<i class="far fa-eye fa-fw"></i>'
-      site_pv_post = ''
-      # custom pv span for one page only
-      page_pv = true
-      page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
-      page_pv_post = ''
-
 
 # 作者配置
 [author]
